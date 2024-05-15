@@ -4,36 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coming Soon</title>
-    <style>
-        body, html {
-            height: 100%;
-            margin: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-family: 'Helvetica Neue', Arial, sans-serif;
-            background-color: #202020;
-            overflow: hidden;
-        }
-
-        .floating-text {
-            color: white;
-            font-size: 48px;
-            font-weight: bold;
-            position: absolute;
-            animation: float 10s infinite ease-in-out;
-        }
-
-        @keyframes float {
-            0% { transform: translate(0, 0); }
-            25% { transform: translate(15px, -10px); }
-            50% { transform: translate(-10px, 15px); }
-            75% { transform: translate(10px, 10px); }
-            100% { transform: translate(0, 0); }
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="floating-text">Coming soon...</div>
+    <div class="container">
+        <div class="floating-text">Coming soon...</div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
